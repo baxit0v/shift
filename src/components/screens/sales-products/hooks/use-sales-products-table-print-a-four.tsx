@@ -22,7 +22,7 @@ export const UseSalesProductsTablePrintAFour = ({ record }: Props) => {
     <div>
       <div ref={componentRef} className="print-area">
         <div className="receipt">
-          <p className="company-title">SHIFT</p>
+          <p className="company-title">D-Sklad</p>
           <div className="top">
             <h1 className="title">{t("receipt")} #{record.id}</h1>
             <div className="between">
